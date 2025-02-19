@@ -2,8 +2,10 @@
 
 A cross-platform, GUI-based tool for splitting large files into smaller parts and joining them back together using Python and PyQt5.
 
-![Screenshot](screenshot.png)  
-*_(Replace `screenshot.png` with your actual screenshot file)_*
+![Screenshot](![image](https://github.com/user-attachments/assets/c3180aff-a2a3-4c00-bc87-197159d25287)
+)  
+![Screenshot](![Join](https://github.com/user-attachments/assets/ac7dd115-d0e7-44ca-8c60-65d9b47d9c6e)
+)
 
 ## Features
 
