@@ -5,7 +5,7 @@ A cross-platform, GUI-based tool for splitting large files into smaller parts an
 
 
 ![Screenshot](https://github.com/Lemontree7981/File-Splitter-for-linux/blob/main/Split.png?raw=true)
-
+![Screenshot](https://github.com/Lemontree7981/File-Splitter-for-linux/blob/main/Join.png?raw=true)
 
 
 
