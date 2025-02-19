@@ -1,7 +1,15 @@
 # Modern File Splitter & Joiner
 
 A cross-platform, GUI-based tool for splitting large files into smaller parts and joining them back together using Python and PyQt5.
+
+
+
 ![Screenshot](https://github.com/Lemontree7981/File-Splitter-for-linux/blob/main/Split.png?raw=true)
+
+
+
+
+
 
 ## Features
 
