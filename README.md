@@ -88,4 +88,4 @@ Contributions are welcome! Feel free to open issues or submit pull requests if y
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE]([LICENSE](https://github.com/Lemontree7981/File-Splitter-for-linux/blob/main/LICENSE)) file for details.
