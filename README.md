@@ -29,8 +29,8 @@ A cross-platform, GUI-based tool for splitting large files into smaller parts an
 1. **Clone the Repository:**
 
    ```bash
-   https://github.com/Lemontree7981/File-Splitter-for-linux
-   cd modern-file-splitter-joiner
+   git clone https://github.com/Lemontree7981/File-Splitter-for-linux
+   cd File-Splitter-for-linux
    ```
 
 2. **Create and Activate a Virtual Environment (Optional but Recommended):**
