@@ -30,8 +30,6 @@ def parse_size(size_str):
 
 class FileBrowserLineEdit(QLineEdit):
     """
-    A clickable, read-only line edit that opens a file or directory dialog.
-    The behavior is determined by the 'dialog_type' parameter: 
       "open" for opening a file,
       "directory" for selecting a directory,
       "save" for choosing a file to save.
@@ -145,8 +143,7 @@ class ModernFileSplitterJoiner(QMainWindow):
         super().__init__()
         self.setWindowTitle("Modern File Splitter & Joiner")
         self.setMinimumSize(800, 600)
-        
-        # Set application stylesheet for a modern look
+        #styling
         self.setStyleSheet("""
             QMainWindow, QWidget {
                 background-color: #f5f5f7;
@@ -215,7 +212,7 @@ class ModernFileSplitterJoiner(QMainWindow):
             }
         """)
         
-        # Central widget and main layout
+        
         central_widget = QWidget()
         self.setCentralWidget(central_widget)
         main_layout = QVBoxLayout(central_widget)
@@ -504,7 +501,7 @@ class ModernFileSplitterJoiner(QMainWindow):
             self.status_text.verticalScrollBar().maximum()
         )
 
-if __name__ == '__main__':
+if __name__ == '__main__':  #Final
     app = QApplication(sys.argv)
     window = ModernFileSplitterJoiner()
     window.show()
