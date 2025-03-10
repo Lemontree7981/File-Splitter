@@ -30,7 +30,7 @@ A cross-platform, GUI-based tool for splitting large files into smaller parts an
 
    ```bash
    git clone https://github.com/Lemontree7981/File-Splitter
-   cd File-Splitter-for-linux
+   cd File-Splitter
    ```
 
 2. **Create and Activate a Virtual Environment (Optional but Recommended):**
