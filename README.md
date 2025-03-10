@@ -29,7 +29,7 @@ A cross-platform, GUI-based tool for splitting large files into smaller parts an
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/Lemontree7981/File-Splitter-for-linux
+   git clone https://github.com/Lemontree7981/File-Splitter
    cd File-Splitter-for-linux
    ```
 
