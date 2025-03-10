@@ -11,7 +11,7 @@ from PyQt5.QtGui import QFont, QIcon
 
 def parse_size(size_str):
     """
-    Parse a human-readable size string (e.g., 2M, 500K, 1G) into integer bytes.
+    Parse a readable size string (e.g., 2M, 500K, 1G) into integer bytes.
     """
     size_str = size_str.strip().upper()
     if size_str.endswith('GB') or size_str.endswith('G'):
