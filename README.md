@@ -43,7 +43,7 @@ A cross-platform, GUI-based tool for splitting large files into smaller parts an
 3. **Install Dependencies:**
 
    ```bash
-   pip install PyQt5
+   pip install -r requirements.txt 
    ```
 
 ## Usage
