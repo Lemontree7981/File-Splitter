@@ -51,7 +51,7 @@ A cross-platform, GUI-based tool for splitting large files into smaller parts an
 1. **Run the Application:**
 
    ```bash
-   python3 file_splitter.py
+   python3 main.py
    ```
 
 2. **Using the Interface:**
