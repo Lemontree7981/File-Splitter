@@ -11,11 +11,10 @@ from PyQt5.QtGui import QFont, QIcon
 
 def parse_size(size_str):
     """
-    Parse a readable size string (e.g., 2M, 500K, 1G) into integer bytes.
+    Parse a readable size string (example., 2MB, 500KB, 1GB) into integer bytes.
     """
     size_str = size_str.strip().upper()
     if size_str.endswith('GB') or size_str.endswith('G'):
-        # Remove 'GB' or 'G'
         number = size_str[:-2] if size_str.endswith('GB') else size_str[:-1]
         return int(float(number) * 1024 * 1024 * 1024)
     elif size_str.endswith('MB') or size_str.endswith('M'):
@@ -25,7 +24,6 @@ def parse_size(size_str):
         number = size_str[:-2] if size_str.endswith('KB') else size_str[:-1]
         return int(float(number) * 1024)
     else:
-        # Assume the value is in bytes
         return int(size_str)
 
 class FileBrowserLineEdit(QLineEdit):
